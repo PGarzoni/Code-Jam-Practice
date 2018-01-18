@@ -61,7 +61,7 @@ namespace TidyNumbers
 
             while (!IsTidyNumber(number))
             {
-                if (number % 10 == 0)
+                if (number % mod == 0)
                     number--;
                 else
                 {
