@@ -31,13 +31,13 @@ namespace TidyNumbers
             sw.Close();
         }
 
-        public static bool IsTidyNumber(long value)
+        public static bool IsTidyNumber(long num)
         {
-            string number = value.ToString();
+            string number = num.ToString();
             bool flag = false;
 
             if (number.Length == 1)
-                flag = true;
+                return true;
             else
             {
                 for (int i = 0; i + 1 < number.Length; i++)
@@ -54,9 +54,9 @@ namespace TidyNumbers
             return flag;
         }
 
-        public static long GetHighestTidyNumber(long value)
+        public static long GetHighestTidyNumber(long num)
         {
-            long number = value;
+            long number = num;
             long mod = 10;
 
             while (!IsTidyNumber(number))
