@@ -17,13 +17,13 @@ namespace TidyNumbers
         {
             StreamReader sr = new StreamReader(inFile);
             StreamWriter sw = new StreamWriter(outFile);
-            string caseStr = sr.ReadLine();
-            int totalCases = Int32.Parse(caseStr);
+            string line = sr.ReadLine();
+            int caseTotal = Int32.Parse(line);
 
-            for (int i = 1; i <= totalCases; i++)
+            for (int i = 1; i <= caseTotal; i++)
             {
-                caseStr = sr.ReadLine();
-                long tidyNum = GetHighestTidyNumber(long.Parse(caseStr));
+                line = sr.ReadLine();
+                long tidyNum = GetHighestTidyNumber(long.Parse(line));
                 sw.WriteLine("Case #{0}: {1}", i, tidyNum);
             }
 
