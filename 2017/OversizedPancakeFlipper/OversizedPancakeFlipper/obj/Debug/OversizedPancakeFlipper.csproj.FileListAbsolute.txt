@@ -1,0 +1,7 @@
+C:\Users\xblin\source\repos\OversizedPancakeFlipper\OversizedPancakeFlipper\obj\Debug\OversizedPancakeFlipper.csprojResolveAssemblyReference.cache
+C:\Users\xblin\source\repos\OversizedPancakeFlipper\OversizedPancakeFlipper\obj\Debug\OversizedPancakeFlipper.csproj.CoreCompileInputs.cache
+C:\Users\xblin\source\repos\OversizedPancakeFlipper\OversizedPancakeFlipper\bin\Debug\OversizedPancakeFlipper.exe.config
+C:\Users\xblin\source\repos\OversizedPancakeFlipper\OversizedPancakeFlipper\bin\Debug\OversizedPancakeFlipper.exe
+C:\Users\xblin\source\repos\OversizedPancakeFlipper\OversizedPancakeFlipper\bin\Debug\OversizedPancakeFlipper.pdb
+C:\Users\xblin\source\repos\OversizedPancakeFlipper\OversizedPancakeFlipper\obj\Debug\OversizedPancakeFlipper.exe
+C:\Users\xblin\source\repos\OversizedPancakeFlipper\OversizedPancakeFlipper\obj\Debug\OversizedPancakeFlipper.pdb
