@@ -40,18 +40,15 @@ namespace TidyNumbers
                 flag = true;
             else
             {
-                for (int i = 0; i < number.Length; i++)
+                for (int i = 0; i + 1 < number.Length; i++)
                 {
-                    if (i + 1 < number.Length)
-                    {
-                        int a = number.ElementAt(i);
-                        int b = number.ElementAt(i + 1);
+                    int a = number.ElementAt(i);
+                    int b = number.ElementAt(i + 1);
 
-                        if (a <= b)
-                            flag = true;
-                        else
-                            return false;
-                    }
+                    if (a <= b)
+                        flag = true;
+                    else
+                        return false;
                 }
             }
             return flag;
