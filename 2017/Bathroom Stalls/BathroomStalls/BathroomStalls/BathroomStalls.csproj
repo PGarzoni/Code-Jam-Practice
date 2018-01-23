@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="C-large-practice.in" />
+    <None Include="C-small-practice-1.in" />
+    <None Include="C-small-practice-2.in" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="outSmall_1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
